@@ -1,0 +1,20 @@
+footer {
+  position: fixed;
+  display: grid;
+  place-items: center;
+  width: 100vw;
+  bottom: 0;
+  background: linear-gradient(85deg, rgba(137, 43, 226, 0.384), skyblue);
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+
+footer > p > span > a {
+  color: goldenrod;
+  text-decoration: none;
+  cursor: pointer;
+}
+footer > p > span > a:hover {
+  color: green;
+}
