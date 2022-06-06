@@ -1,73 +1,85 @@
 import React from "react";
 import "./Home.css";
-import logo from "../images/leafimage.jpg";
+// import logo from "../images/leafimage.jpg";
+import logo from "../Medi_plants_images/background.png";
 
 const Home = () => {
   return (
     <div className="home">
-      <h1 id="home">Home page</h1>
+      <h1 id="home">&nbsp;</h1>
       <div className="image-container">
-        <img src={logo} alt='background image' />
+        <img src={logo} alt="background image" />
       </div>
       <p>
-        author:monierabdelghani@yahoo.com <br/>ABSTRACT The present study represents
-        an attempt to document information on the traditional medicinal plants
-        that used in Nigeria. A compiled check list of these plants including
-        their Latin names, families, parts used, medicinal uses, and name in
-        different Nigerian states is the main purpose of this study. All
-        available information about either the traditional medicinal plants or
-        ethnobotanical surveys in Nigeria was consulted. The study showed that
-        325 species and 95 families of medicinal plants were recognized as being
-        used by most of the people in Nigeria for the treatment of various
-        common diseases. Fabaceae has the largest number of species (42),
-        followed by Asteraceae (22), Euphorbiaceae (20), Acanthaceae (13) and
-        Apocynaceae (12). The largest genera were Euphorbia (6 species), Cola
-        and Hibiscus (5 species for each), Albizia, Acacia, Combretum and Ficus
-        (4 species for each), Acalypha, Allium, Clerodendrum and Cleome (3
-        species for each). The study revealed that traditional medicinal
-        practices have a wide acceptability among the Nigerian people, probably
-        because they believe in its effectiveness. The medicinal uses are
-        varied, and the plant parts that are used ranged from leaves, roots,
-        stem, bark to fruits only, or a combination of two or more in a species
-        or with those of other species. Enduring and sustainable conservation
-        efforts should be implemented to safeguard these important medicinal
-        plants. Keywords: Ethnomedicine, diversity, distribution, traditional
-        healers, Nigeria.
+        The practice, knowledge of medicinal plants and the use of the same for
+        therapeutic purposes has been an integral part of Nigeria culture since
+        medieval times. They occur naturally and are capable of withstanding
+        adverse environmental weather conditions and anthropogenic activities.
+        However, their over-exploitation, unintentional removal and lack of
+        identification and mapping are matters of grave concern. Occurrence of
+        medicinal plants in densely populated built up areas are a rarity (e.g.,
+        Lagos, Nigeria). Obafemi Awolowo University having a large expanse of
+        land with dense vegetation was chosen for the present investigation to
+        identify and map the exact GPS location of medicinal plant species found
+        in this area. For same model to be used in other educational institute
+        in Nigeria. The application of Geographic Information System (GIS) in
+        plant taxonomy, ecosystem management and various components of
+        biodiversity is reviewed. Incorporation of geo-referenced ground data
+        helps in the identification and mapping out of areas susceptible to
+        habitat shrinkage and species loss. The project aims at the use of
+        geographic information technology in mapping and monitoring of species
+        and habitats of common medicinal plants (e.g Chromolaena odorata,
+        Ageratum conyzoides and Senna alata) in OAU, Ile-Ife Osun, State,
+        Nigeria. The gap between the rate of exploration and conservation is
+        analyzed, characterization of habitat and landscape level biodiversity,
+        species distribution pattern and modelling. Analysis was carried out in
+        order to identifying sites for systematic inventories whereas gap
+        analysis help to know the status of botanical exploration and the
+        representativeness of protected area network. The relationship between
+        the land use and medicinal plant species would be implemented to explore
+        the plants modeling both spatial and non-spatial data under the GIS
+        platform.
       </p>
       <h2 id="about">INTRODUCTION</h2>
       <p>
-        Medicinal plants constitute an effective source of both traditional and
-        modern medicine. These plants have been shown to have genuine utility
-        and about 80% of the rural population depends on them as primary health
-        care (Akinyemi, 2000). Plants have been used as sources of remedies for
-        the treatment of many diseases since ancient times and people of all
-        continents especially Africa have this old tradition. Despite the
-        remarkable progress in synthetic organic medicinal products of the
-        twentieth century, over 25% of prescribed medicines in industrialized
-        countries are derived directly or indirectly from plants (Newman et al.,
-        2000). However, plants used in traditional medicine are still
-        understudied (Kirby, 1996). In developing countries, notably in West
-        Africa, new drugs are not often affordable. Thus, up to 80% of the
-        population uses medicinal plants as remedies (Kirby, 1996; Hostellmann
-        and Marston, 2002). According to the World Health Organization (WHO) the
-        definition of traditional medicine may be summarized as the sum total of
-        all the knowledge and practical, whether explicable or not, used in the
-        diagnosis, prevention and elimination of physical, mental or social
-        imbalance and relying exclusively on practical experience and
-        observation handed down from generation to generation, whether verbally
-        or in writing. Traditional medicine might also be considered as a solid
-        amalgamation of dynamic medical known-how and ancestral experience. In
-        Africa, traditional healers and remedies made from plants play an
-        important role in the health of millions of people. Traditional medicine
-        has been described by the WHO as one of the surest means to achieve
-        total health care coverage of the world’s population. Numerous medicines
-        have been derived from the knowledge of tropical forest people and
-        clearly there will be more in the future. This alone is reason enough
-        for any and all programs to be concerned with the conservation,
-        development, and protection of tropical forest regions. It has been
-        estimated that in developed countries such as United States, plant drugs
-        constitute as much as 25% of the total drugs, while in fast developing
-        countries such as China and India, the
+        As defined by W.H.O. Medicinal plants are plants in which one or more of
+        its parts contains phytochemicals substances such as alkaloid,
+        flavonoid, saponin, tannin and other phenolic compounds that can be used
+        for therapeutic purposes or which are precursors for the synthesis of
+        useful drugs. The use of medicinal plants in both developed and
+        developing nations as basis for the treatment of numerous ailments has
+        been a practice for thousands of years and their importance to man
+        cannot be over-emphasized. Developing countries, Nigeria as a used case,
+        statistic shows that 60-85% of its citizens rely on indigenous or herbal
+        form of medicine, partly due to the inaccessibility of orthodox medicine
+        but the major contributing factor is the fact that it blends readily
+        into the socio-cultural lives of the people who have high cultural
+        values. The fascinating thing about these medicinal plants is that they
+        are easily found around communities with low density of human population
+        and less destructive anthropogenic activities. These plants are used for
+        the treatment of various diseases such as viral liver disease,
+        anti-microbial, anti-inflammatory, anti-cancer etc. All these incredible
+        benefits of medicinal plants become meaningless, if they are difficult
+        to identify and locate. Over-exploitation and lack of conservation
+        measures will lead to an increase in the number of endangered plant
+        species and this will ultimately result in their extinction They serve
+        as an alternative to orthodox drugs. Although, modern medicine enjoys
+        maximum popularity all over the world. Its side effects are negative
+        chemical reactions, therefore, destroying the goal of the use of
+        medicine. Due to chemical abuse, there has been a lot of health issues.
+        A larger population of the world had been clamoring for drug abatement
+        in recent time. Slow rejuvenation of indigenous communities has to be
+        taken care of for the present need. These indigenous people before the
+        advent of technology and science are in tune with their habitat and
+        conversant with these medicinal plants, application, ability to identify
+        these medicinal plants without much difficulty and method of usage. But,
+        due to urbanization and industrialization this contact with nature was
+        cut down literally, consequently the knowledge about the identification
+        of plants also deteriorated. So, before we loss this great asset
+        bestowed upon us by nature. It is high time we combine the knowledge
+        possess by the indigenous people with GIS and remote sensing to aid the
+        proper identification of these medicinal plant that are peculiar to
+        these regions and ensure their conservation and increase biodiversity.
       </p>
     </div>
   );

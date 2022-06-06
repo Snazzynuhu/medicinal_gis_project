@@ -1,13 +1,13 @@
-.home{
-    margin-top: 5rem;
+.home {
+  margin-top: 2rem;
 }
-.image-container{
-    width: 20rem;
-    height: 20rem;
-    border: 3px solid red;
-    margin: 0 auto;
+.image-container {
+  width: 100vw;
+  height: 100vh;
+  border: 3px solid red;
+  margin: 0 auto;
 }
-.image-container > img{
-    width: 100%;
-    height: 100%;
+.image-container > img {
+  width: 100%;
+  height: 100%;
 }

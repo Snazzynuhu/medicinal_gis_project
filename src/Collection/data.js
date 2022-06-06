@@ -1,8 +1,48 @@
 import afromomum1 from "../images/leafimage.jpg";
+import abrus from "../Medi_plants_images/Abrus_precatorius_flowers_at_Neeliyarkottam_(1).jpg";
+import afromomum from "../Medi_plants_images/Aframomum+melegueta.jpg";
+import agerantum from "../Medi_plants_images/Ageratum_conyzoides_1.jpg";
+import Alstonia from "../Medi_plants_images/Alstonia boonei.jpg";
+import Amaranthus from "../Medi_plants_images/Amaranthus_spinosus_(3166494660).jpg";
+import Anacardium from "../Medi_plants_images/Anacardium occidentale L..jpg";
+import Ananas from "../Medi_plants_images/Ananas_comosus_Victoria_P1190421.jpg";
+import Anchomanes from "../Medi_plants_images/Anchomanes_difformis-IMG_2160.jpg";
+import Bidens from "../Medi_plants_images/Bidens_pilosa_01.jpg";
+import Bixa from "../Medi_plants_images/Bixa_orellana.jpg";
+import Boldo from "../Medi_plants_images/Boldo_baiano.jpg";
+import Caladium from "../Medi_plants_images/Caladium-bicolor-Holmes-Palacios--CC-BY.jpg";
+import Calotropis from "../Medi_plants_images/Calotropis_procera.jpg";
+import Carica from "../Medi_plants_images/Carica_papaya_001.jfif";
+import Chromolaena from "../Medi_plants_images/Chromolaena_odorata_by_Ashasathees.jpg";
+import Citrus from "../Medi_plants_images/Citrus_aurantiifolia_by_Kadavoor.jpg";
+import Corchorus from "../Medi_plants_images/Corchorus_olitorius_L.jpg";
+import Crinum from "../Medi_plants_images/Crinum_jagus_'Vanillodorum'_1.jpg";
+import Elaeis from "../Medi_plants_images/Elaeis_guineensis_fruits_on_tree.jpg";
+import Ficus from "../Medi_plants_images/Ficus_exasperata_15.jpg";
+import Garcinia from "../Medi_plants_images/Garcinia_kola_-_Plant.jpg";
+import Heliotro from "../Medi_plants_images/Heliotropium_indicum_2617.jpg";
+import irvinga from "../Medi_plants_images/irvinga.jfif";
+import JatrophaG from "../Medi_plants_images/Jatropha gossypifolia.jpg";
+import JatrophaC from "../Medi_plants_images/Jatropha_curcas1_henning.jpg";
+import Khaya from "../Medi_plants_images/Khaya gradifoliola.jpeg";
+import Kigelia from "../Medi_plants_images/Kigelia_africana_in_Murchison_Falls_National_Park.jpg";
+import Mangifera from "../Medi_plants_images/Mangifera_indica.jfif";
+import Momordica from "../Medi_plants_images/Momordica_charantia_1.jpg";
+import Moringa from "../Medi_plants_images/Moringa oleifera.jpg";
+import Mucuna from "../Medi_plants_images/Mucuna pruriens.jfif";
+import Newbouldia from "../Medi_plants_images/Newbouldia.jpg";
+import Ocimum from "../Medi_plants_images/Ocimum_gratissimum.jpg";
+import Phyllanthus from "../Medi_plants_images/Phyllanthus_amarus_(Carry_Me_Seed)_W3_IMG_3851.jpg";
+import Rauvolfia from "../Medi_plants_images/Rauvolfia_vomitoria-Jardin_botanique_Meise_(5).jpg";
+import Senna from "../Medi_plants_images/Senna_alata_(1).jpg";
+import Spondias from "../Medi_plants_images/Spondias_mombin_MS4005.jfif";
+import Vernonia from "../Medi_plants_images/Vernonia-amygdalina.png";
+import Wollastonia from "../Medi_plants_images/Wollastonia_biflora.jpg";
+import Xylopia from "../Medi_plants_images/Xylopia aethiopica.jpg";
 export const data = [
   {
     id: 1,
-    image: afromomum1,
+    image: Amaranthus,
     botanical_name: "Amaranthus spinosus",
     common_name: "Spiny amarath",
     local_name: "local name",
@@ -14,7 +54,7 @@ export const data = [
   },
   {
     id: 2,
-    image: afromomum1,
+    image: Crinum,
     botanical_name: "Crinum jagus",
     common_name: "Christopher’s lilly",
     local_name: "Ogede odo, Isu merii",
@@ -26,7 +66,7 @@ export const data = [
   },
   {
     id: 3,
-    image: afromomum1,
+    image: Rauvolfia,
     botanical_name: "Rauvolfia vomitoria",
     common_name: "Devil’s pepper",
     local_name: "Asofeyeje, Oloora",
@@ -39,7 +79,7 @@ export const data = [
   },
   {
     id: 4,
-    image: afromomum1,
+    image: Anchomanes,
     botanical_name: "Anchomanes difformis",
     common_name: "Forest anchomanes",
     local_name: "Isu ogirisako",
@@ -52,7 +92,7 @@ export const data = [
   },
   {
     id: 5,
-    image: afromomum1,
+    image: Caladium,
     botanical_name: "Caladium bicolor",
     common_name: "Angel wings",
     local_name: "Eje jesu, Lefun-losun",
@@ -64,7 +104,7 @@ export const data = [
   },
   {
     id: 6,
-    image: afromomum1,
+    image: Elaeis,
     botanical_name: "Elaeis guineenses",
     common_name: "Oil palm",
     local_name: "Ope-eyin",
@@ -77,7 +117,7 @@ export const data = [
   },
   {
     id: 7,
-    image: afromomum1,
+    image: agerantum,
     botanical_name: "Ageratum conyzoides",
     common_name: "Billy goat weed",
     local_name: "Imi-esu, Apasa, Rerin-komi, Oorugun",
@@ -89,7 +129,7 @@ export const data = [
   },
   {
     id: 8,
-    image: afromomum1,
+    image: Bidens,
     botanical_name: "Bidens pilosa",
     common_name: "Black Jack",
     local_name: "Molaganran, tamolaganran",
@@ -101,7 +141,7 @@ export const data = [
   },
   {
     id: 9,
-    image: afromomum1,
+    image: Chromolaena,
     botanical_name: "Chromolaena odorata",
     common_name: "Siam weed",
     local_name: "Akintola",
@@ -114,7 +154,7 @@ export const data = [
   },
   {
     id: 10,
-    image: afromomum1,
+    image: Wollastonia,
     botanical_name: "Melanthera scandens",
     common_name: "Black anther",
     local_name: "Ako yunrun",
@@ -126,7 +166,7 @@ export const data = [
   },
   {
     id: 11,
-    image: afromomum1,
+    image: Vernonia,
     botanical_name: "Vernonia amygdalina",
     common_name: "Bitter leaf",
     local_name: "Ewuro",
@@ -138,7 +178,7 @@ export const data = [
   },
   {
     id: 12,
-    image: afromomum1,
+    image: Kigelia,
     botanical_name: "Kigelia africana",
     common_name: "Sausage tree",
     local_name: "Pandoro",
@@ -151,7 +191,7 @@ export const data = [
   },
   {
     id: 13,
-    image: afromomum1,
+    image: Newbouldia,
     botanical_name: "Newbouldia laevis",
     common_name: "Boundary tree",
     local_name: "Akoko",
@@ -164,7 +204,7 @@ export const data = [
   },
   {
     id: 14,
-    image: afromomum1,
+    image: Bixa,
     botanical_name: "Bixa orellana",
     common_name: "Lipstick plant",
     local_name: "Laali",
@@ -177,7 +217,7 @@ export const data = [
   },
   {
     id: 15,
-    image: afromomum1,
+    image: Heliotro,
     botanical_name: "Heliotropium indicum",
     common_name: "Indian heliotrope",
     local_name: "Ogbe-ori-akuko",
@@ -188,7 +228,7 @@ export const data = [
   },
   {
     id: 16,
-    image: afromomum1,
+    image: Ananas,
     botanical_name: "Ananas comosus",
     common_name: "Pineapple",
     local_name: "Ope oyinbo",
@@ -201,7 +241,7 @@ export const data = [
   },
   {
     id: 17,
-    image: afromomum1,
+    image: Carica,
     botanical_name: "Carica papaya",
     common_name: "Pawpaw",
     local_name: "Ibepe",
@@ -214,7 +254,7 @@ export const data = [
   },
   {
     id: 18,
-    image: afromomum1,
+    image: Garcinia,
     botanical_name: "Garcinia kola",
     common_name: "Bitter kola",
     local_name: "Orogbo",
@@ -227,7 +267,7 @@ export const data = [
   },
   {
     id: 19,
-    image: afromomum1,
+    image: Calotropis,
     botanical_name: "Calotropis procera",
     common_name: "Giant milkweed",
     local_name: "Bomubomu",
@@ -240,7 +280,7 @@ export const data = [
   },
   {
     id: 20,
-    image: afromomum1,
+    image: Alstonia,
     botanical_name: "Alstonia boonei",
     common_name: "Wild Stool wood",
     local_name: "Ahun",
@@ -253,7 +293,7 @@ export const data = [
   },
   {
     id: 21,
-    image: afromomum1,
+    image: Ocimum,
     botanical_name: "Occimum grayissimum",
     common_name: "Clove basil",
     local_name: "Efinrin nla, Foromoba",
@@ -266,7 +306,7 @@ export const data = [
   },
   {
     id: 22,
-    image: afromomum1,
+    image: Xylopia,
     botanical_name: "Xylopia aethiopica",
     common_name: "Rich Guinea pepper",
     local_name: "Eeru alamo, Eeru awonka",
@@ -279,7 +319,7 @@ export const data = [
   },
   {
     id: 23,
-    image: afromomum1,
+    image: Spondias,
     botanical_name: "Spondias mombin",
     common_name: "Hog plum",
     local_name: "Iyeye",
@@ -292,7 +332,7 @@ export const data = [
   },
   {
     id: 24,
-    image: afromomum1,
+    image: Mangifera,
     botanical_name: "Mangifera indica ",
     common_name: "Mango",
     local_name: "Mongoro",
@@ -305,7 +345,7 @@ export const data = [
   },
   {
     id: 25,
-    image: afromomum1,
+    image: Anacardium,
     botanical_name: "Anacardium occidentale",
     common_name: "Cashew",
     local_name: "Kashu",
@@ -318,7 +358,7 @@ export const data = [
   },
   {
     id: 26,
-    image: afromomum1,
+    image: Khaya,
     botanical_name: "Khaya gradifoliola",
     common_name: "Mahogany",
     local_name: "Oganwo",
@@ -331,7 +371,7 @@ export const data = [
   },
   {
     id: 27,
-    image: afromomum1,
+    image: Senna,
     botanical_name: "Senna alata",
     common_name: "Candle plant",
     local_name: "Asunran, Ajaawa",
@@ -344,7 +384,7 @@ export const data = [
   },
   {
     id: 28,
-    image: afromomum1,
+    image: Phyllanthus,
     botanical_name: "Phyllanthus amarus",
     common_name: "Coral bush",
     local_name: "Ogege",
@@ -357,7 +397,7 @@ export const data = [
   },
   {
     id: 29,
-    image: afromomum1,
+    image: Momordica,
     botanical_name: "Momordica charantia",
     common_name: "Bitter melon",
     local_name: "Ejinrin, Igbole aja",
@@ -370,7 +410,7 @@ export const data = [
   },
   {
     id: 30,
-    image: afromomum1,
+    image: Mucuna,
     botanical_name: "Mucuna pruriens",
     common_name: "Velvet bean",
     local_name: "Yerepe",
@@ -383,7 +423,7 @@ export const data = [
   },
   {
     id: 31,
-    image: afromomum1,
+    image: Citrus,
     botanical_name: "Citrus aurantifolia",
     common_name: "Lime orange",
     local_name: "Orombo, Osan wewe",
@@ -396,7 +436,7 @@ export const data = [
   },
   {
     id: 32,
-    image: afromomum1,
+    image: afromomum,
     botanical_name: "melegueta Afromomum ",
     common_name: "Grains of paradise",
     local_name: "Ataare",
@@ -409,7 +449,7 @@ export const data = [
   },
   {
     id: 33,
-    image: afromomum1,
+    image: Moringa,
     botanical_name: "Moringa oleifera",
     common_name: "Moringa",
     local_name: "Ewe igbale, Muringa",
@@ -422,7 +462,7 @@ export const data = [
   },
   {
     id: 34,
-    image: afromomum1,
+    image: JatrophaG,
     botanical_name: "Jatropha gossypifolia",
     common_name: "Bellyache bush",
     local_name: "Botuje, Lapalapa pupa, Iyalode",
@@ -435,7 +475,7 @@ export const data = [
   },
   {
     id: 35,
-    image: afromomum1,
+    image: abrus,
     botanical_name: "Abrus precatorius",
     common_name: "Rosary pea",
     local_name: "Omisinmisin, Oju-ologbo",
@@ -447,7 +487,7 @@ export const data = [
   },
   {
     id: 36,
-    image: afromomum1,
+    image: Ficus,
     botanical_name: "Ficus exasperata",
     common_name: "Sandpaper tree",
     local_name: "Eepin, Ipin",
@@ -460,7 +500,7 @@ export const data = [
   },
   {
     id: 37,
-    image: afromomum1,
+    image: Corchorus,
     botanical_name: "Corchorus olitorius",
     common_name: "Jute",
     local_name: "Ewedu, Ewe Ooyo",
@@ -473,7 +513,7 @@ export const data = [
   },
   {
     id: 38,
-    image: afromomum1,
+    image: JatrophaC,
     botanical_name: "Jatropha curcas",
     common_name: "Barbados nut",
     local_name: "Botuje, Lapalapa funfun",
@@ -486,7 +526,7 @@ export const data = [
   },
   {
     id: 39,
-    image: afromomum1,
+    image: irvinga,
     botanical_name: "Irvingia gabonensis",
     common_name: "Wild mango",
     local_name: "Ooro",
