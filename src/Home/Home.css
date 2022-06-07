@@ -1,8 +1,11 @@
 .home {
   margin-top: 2rem;
 }
+.home > p {
+  padding: 0 3rem;
+}
 .image-container {
-  width: 100vw;
+  width: 90vw;
   height: 100vh;
   border: 3px solid red;
   margin: 0 auto;
