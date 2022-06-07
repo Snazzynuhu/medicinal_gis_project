@@ -3,6 +3,7 @@
 }
 .home > p {
   padding: 0 3rem;
+  line-height: 1.7rem;
 }
 .image-container {
   width: 90vw;
