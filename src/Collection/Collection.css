@@ -62,3 +62,39 @@ h3 {
   color: green;
   cursor: pointer;
 }
+.medi_heading {
+  text-transform: capitalize;
+  font-size: 2rem;
+}
+.botanical_name,
+.common_name,
+.local_name,
+.part_used,
+.medicinal_uses,
+.plant_description {
+  text-transform: capitalize;
+  font-size: large;
+}
+.botanical_name {
+  font-size: 1.5rem;
+}
+.botanical_name > span {
+  color: green;
+}
+.medicinal_uses > span {
+  text-transform: lowercase;
+}
+.plant_description {
+  font-weight: bold;
+}
+.plant_description > span {
+  font-weight: lighter;
+  text-transform: lowercase;
+}
+.plant_description > span > a {
+  text-decoration: none;
+  margin-left: 0.3rem;
+}
+.plant_description > span > a:hover {
+  color: green;
+}

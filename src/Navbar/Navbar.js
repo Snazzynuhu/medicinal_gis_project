@@ -13,7 +13,10 @@ const Navbar = () => {
           <a href="#home">Home</a>
         </button>
         <button>
-          <a href="#about">about</a>
+          <a href="#abstract">abstract</a>
+        </button>
+        <button>
+          <a href="#about">introduction</a>
         </button>
         <button>
           <a href="#database">database</a>

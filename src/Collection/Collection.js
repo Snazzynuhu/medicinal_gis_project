@@ -20,7 +20,9 @@ const Collection = () => {
   }
   return (
     <>
-      <h1 id="database">medicinal plants collection found in the study area</h1>
+      <h1 id="database" className="medi_heading">
+        medicinal plants collection found in the study area
+      </h1>
       <section className="plants-container">
         {data.map((item) => {
           return (
@@ -65,15 +67,11 @@ const Collection = () => {
                   go to google earth engine
                 </a>
               </h3>
-              <p>
+              <p className="plant_description">
                 botanical description:{" "}
                 <span>
-                  description about individual plant goes in here and there
-                  would a link to a journal to read more about that plant
-                  <a
-                    href="https://go to wikipedia page or article on that plant"
-                    blank="_target"
-                  >
+                  {item.description}
+                  <a href={item.url} blank="_target">
                     read more....
                   </a>
                 </span>

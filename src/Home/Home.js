@@ -10,6 +10,7 @@ const Home = () => {
       <div className="image-container">
         <img src={logo} alt="background image" />
       </div>
+      <h2 class="heading" id="abstract">abstract</h2>
       <p>
         The practice, knowledge of medicinal plants and the use of the same for
         therapeutic purposes has been an integral part of Nigeria culture since
@@ -40,7 +41,7 @@ const Home = () => {
         the plants modeling both spatial and non-spatial data under the GIS
         platform.
       </p>
-      <h2 id="about">INTRODUCTION</h2>
+      <h2 id="about" class="heading">introduction</h2>
       <p>
         As defined by W.H.O. Medicinal plants are plants in which one or more of
         its parts contains phytochemicals substances such as alkaloid,
