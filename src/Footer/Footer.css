@@ -4,7 +4,7 @@ footer {
   place-items: center;
   width: 100vw;
   bottom: 0;
-  background: linear-gradient(85deg, rgba(137, 43, 226, 0.384), skyblue);
+  background: linear-gradient(85deg, rgb(137, 43, 226), skyblue);
   color: #fff;
   text-transform: capitalize;
   font-size: 1rem;
