@@ -6,13 +6,22 @@ const Footer = () => {
   return (
     <footer>
       <p>
-        &copy; copyright  {now}. all rights reserved developed by{" "}
+        &copy; copyright {now}. all rights reserved developed by{" "}
         <span>
           <a href="https://harunanuhu-portfolio.netlify.app/" target="_blank">
             haruna nuhu
           </a>
-        </span> 
-        <br/>
+        </span>{" "}
+        supervised by{" "}
+        <span>
+          <a
+            href="https://geography.oauife.edu.ng/instructor/dr-d-o-baloye/"
+            target="_blank"
+          >
+            Dr. David O. BALOYE
+          </a>
+        </span>
+        <br />
         thesis for the award of the Postgraduate Diploma in RS/GIS(ARCSSTEE).
       </p>
     </footer>
