@@ -16,7 +16,7 @@ body,
   padding: 0.7rem;
   border-radius: 1rem;
   position: fixed;
-  bottom: 4rem;
+  bottom: 8rem;
   right: 4rem;
   animation: bounce 2s linear infinite;
   transition: animation 0.5s linear;
