@@ -1,17 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Home.css";
 // import logo from "../images/leafimage.jpg";
 import logo from "../Medi_plants_images/background.png";
 import { data } from "../Collection/data";
 
 const Home = () => {
+  const [modal, setModal] = useState(false);
+  const openModal=()=>{
+    setModal(!modal)
+  }
   return (
     <div className="home">
       <h1 id="home">&nbsp;</h1>
       <div className="image-container">
         <img src={logo} alt="background image" />
       </div>
-      <h2 class="heading" id="abstract">abstract</h2>
+      <h2 class="heading" id="abstract">
+        abstract
+      </h2>
       <p>
         The practice, knowledge of medicinal plants and the use of the same for
         therapeutic purposes has been an integral part of Nigeria culture since
@@ -34,12 +40,14 @@ const Home = () => {
         Ageratum conyzoides and Senna alata) in OAU, Ile-Ife Osun, State,
         Nigeria. The gap between the rate of exploration and conservation is
         analyzed, characterization of habitat and landscape level biodiversity,
-        species distribution pattern and modelling. The relationship between
-        the land use and medicinal plant species would be implemented to explore
-        the plants modeling both spatial and non-spatial data under the GIS
+        species distribution pattern and modelling. The relationship between the
+        land use and medicinal plant species would be implemented to explore the
+        plants modeling both spatial and non-spatial data under the GIS
         platform.
       </p>
-      <h2 id="about" class="heading">introduction</h2>
+      <h2 id="about" class="heading">
+        introduction
+      </h2>
       <p>
         As defined by W.H.O. Medicinal plants are plants in which one or more of
         its parts contains phytochemicals substances such as alkaloid,
@@ -61,7 +69,7 @@ const Home = () => {
         benefits of medicinal plants become meaningless, if they are difficult
         to identify and locate. Over-exploitation and lack of conservation
         measures will lead to an increase in the number of endangered plant
-        species and this will ultimately result in their extinction They serve
+        species and this will ultimately result in their extinction.They serve
         as an alternative to orthodox drugs. Although, modern medicine enjoys
         maximum popularity all over the world. Its side effects are negative
         chemical reactions, therefore, destroying the goal of the use of
@@ -74,15 +82,21 @@ const Home = () => {
         these medicinal plants without much difficulty and method of usage. But,
         due to urbanization and industrialization this contact with nature was
         cut down literally, consequently the knowledge about the identification
-        of plants also deteriorated. So, before we loss this great asset
-        bestowed upon us by nature. It is high time we combine the knowledge
+        of plants also deteriorated. It is high time we combine the knowledge
         possess by the indigenous people with GIS and remote sensing to aid the
         proper identification of these medicinal plant that are peculiar to
         these regions and ensure their conservation and increase biodiversity.
       </p>
-          <div className="plant_list_container">{data.map((item, index)=>{
-            return <h3 className="plant_name">Plant {index+1}: <span>{item.common_name}</span></h3>
-          })}</div>
+      <div className="plant_list_container">
+        {data.map((item, index) => {
+          return (
+            <h3 className="plant_name" onClick={openModal}>
+              Plant {index + 1}: <span>{item.common_name}</span>
+            </h3>
+          );
+        })}
+      </div>
+      {modal&&<div className="modal_container">I am in the modal</div>}
     </div>
   );
 };
