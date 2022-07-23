@@ -70,7 +70,7 @@ const Collection = () => {
               <p className="plant_description">
                 botanical description:{" "}
                 <span>
-                  {item.description}
+                  {(item.description).substring(0,250)}
                   <a href={item.url} blank="_target">
                     read more....
                   </a>

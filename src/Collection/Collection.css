@@ -12,6 +12,7 @@ body {
 .single-plant {
   width: 30rem;
   height: max-content;
+  height: 52rem;
   border-radius: 1rem;
   padding: 1rem;
   margin: 3rem 0 0;
@@ -50,6 +51,7 @@ body {
 }
 h3 {
   text-transform: capitalize;
+  margin: 0rem 0rem 1rem;
 }
 .link_googlearth {
   text-decoration: none;
@@ -65,7 +67,8 @@ h3 {
 }
 .medi_heading {
   text-transform: capitalize;
-  font-size: 2rem;
+  font-size: 1.75rem;
+  color: green;
 }
 .botanical_name,
 .common_name,
@@ -74,27 +77,30 @@ h3 {
 .medicinal_uses,
 .plant_description {
   text-transform: capitalize;
-  font-size: large;
+  font-size: medium;
 }
 .botanical_name {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 .botanical_name > span {
   color: green;
 }
 .medicinal_uses > span {
   text-transform: lowercase;
+  color: green;
 }
 .plant_description {
-  font-weight: bold;
+  color: green;
 }
 .plant_description > span {
   font-weight: lighter;
   text-transform: lowercase;
+  color: #000;
 }
 .plant_description > span > a {
   text-decoration: none;
   margin-left: 0.3rem;
+  font-weight: bold;
 }
 .plant_description > span > a:hover {
   color: green;

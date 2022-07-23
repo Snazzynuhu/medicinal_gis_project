@@ -49,7 +49,7 @@ export const data = [
     parts_used: "Leaf",
     medicinal_uses:
       "Leaf paste is mixed with local soap and used to bath children having teething problem.",
-    coordinates: "7.30789 4.32923 ",
+    coordinates: "7.30789 4.31923 ",
     description:
       "Amaranthus spinosus, commonly known as the spiny amaranth,[1] spiny pigweed, prickly amaranth or thorny amaranth, is a plant is native to the tropical Americas, but is present on most continents as an introduced species and sometimes a noxious weed. It can be a serious weed of rice cultivation in Asia.",
     url: "https://en.wikipedia.org/wiki/Amaranthus_spinosus",
@@ -63,7 +63,7 @@ export const data = [
     parts_used: "Bulb",
     medicinal_uses:
       "Decoction of the bulb and Xylopia aethiopica is used for convulsion. The bulb is infused in water with alum to treat asthma",
-    coordinates: "7.31404 4.31823",
+    coordinates: "7.31404 4.31223",
     description:
       "Crinum jagus is a tender perennial bulb in the Amaryllis family that is native to tropical Africa. Tulip-like white flowers bloom in clusters in summer atop leafless stalks typically rising to 2-3’ tall from a clump of strap-shaped green leaves. Some flowers are fragrant, but other have little aroma. Crinum bulbs typically taper into elongated necks.",
     url: "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=275690&isprofile=1&gen=Crinum",
@@ -77,7 +77,7 @@ export const data = [
     parts_used: "Leaf, stem bark, root",
     medicinal_uses:
       "Stem bark is infused in alcohol to treat pile and backache.Decoction of the leaf and root is used to treat yellow fever.Powdered dry root is swallowed with water to treat insomnia.",
-    coordinates: "7.31142 4.31291",
+    coordinates: "7.31112 4.31581",
 
     description:
       "Rauvolfia vomitoria, the poison devil's-pepper,[3] is a plant species in the genus Rauvolfia. It is native from Senegal east to Sudan and Tanzania, south to Angola; and naturalized in China, Bangladesh, different ranges of Himalayan and Puerto Rico.[4] The plant contains a number of compounds of interest to the pharmaceutical industry and is widely used in traditional medicine.",
@@ -92,7 +92,7 @@ export const data = [
     parts_used: "Tuber",
     medicinal_uses:
       "The tuber is cut, infused in water, and taken to treat stroke",
-    coordinates: "7.31249 4.31562",
+    coordinates: "7.31119 4.31562",
 
     description:
       " difformis is a native plant of the African continent and grows widely in wetlands and terrestrial areas of West Tropical Africa including Nigeria, Ghana, Ivory Coast, Sierra Leone, Senegal, and Togo. A. difformis is a large herbaceous perennial plant with stout prickly stem (leaf petioles) of about 0.8 to 2 m high. The plant is erect on an enormous horizontal tuber, often reaching 50 to 80 cm long and 10 to 20 cm in diameter",
@@ -107,7 +107,7 @@ export const data = [
     parts_used: "Leaf",
     medicinal_uses:
       "Maceration of leaf in fermented maize water is used to treat stomach ulcer.",
-    coordinates: "7.31142 4.31291",
+    coordinates: "7.31142 4.31201",
     description:
       "Caladium bicolor, called Heart of Jesus, is a species in the genus Caladium from Latin America. It is grown as a houseplant for its large, heart or lance-shaped leaves with striking green, white, pink, and red blotching. Hundreds of cultivars are available. (See List of Caladium cultivars.) It can be planted outside in USDA Hardiness Zone 10 as an ornamental. It is a problematic invasive species in Trinidad and Tobago, Guam, Micronesia, Palau, Hawaii and the Philippines, and naturalized populations can be found in most of the rest of the world's tropics, including Africa, the Indian subcontinent, southeast Asia and Malesia.",
     url: "https://en.wikipedia.org/wiki/Caladium_bicolor",
@@ -121,7 +121,7 @@ export const data = [
     parts_used: "Leaf",
     medicinal_uses:
       "Decoction of the root with potash is used to treat hernia.",
-    coordinates: "7.31292 4.31375",
+    coordinates: "7.31512 4.29245",
 
     description:
       "Elaeis guineensis is a species of palm commonly just called oil palm but also sometimes African oil palm or macaw-fat.[3] It is the principal source of palm oil. It is native to west and southwest Africa, specifically the area between Angola and the Gambia; the species name, guineensis, refers to the name for the area, Guinea, and not the modern country now bearing that name. The species is also now naturalised in Madagascar, Sri Lanka, Malaysia, Indonesia, Central America, Cambodia, the West Indies, and several islands in the Indian and Pacific Oceans. The closely related American oil palm Elaeis oleifera and a more distantly related palm, Attalea maripa, are also used to produce palm oil.",
@@ -136,7 +136,7 @@ export const data = [
     parts_used: "Leaf",
     medicinal_uses:
       "Maceration of the leaves with the fruit juice of Citrus aurantifolia is used to treat female infertility",
-    coordinates: "7.31162 4.31580",
+    coordinates: "7.31542 4.29230",
     description:
       "Ageratum conyzoides (billygoat-weed, chick weed, goatweed, whiteweed, mentrasto) is native to Tropical America, especially Brazil, and is an invasive weed in many other regions. It is an herb that is 0.5–1 m. high, with ovate leaves 2–6 cm long, and flowers are white to mauve",
     url: "https://en.wikipedia.org/wiki/Ageratum_conyzoides",
@@ -149,7 +149,7 @@ export const data = [
     local_name: "Molaganran, tamolaganran",
     parts_used: "Leaf",
     medicinal_uses: "Decoction of leaf is taken for rheumatism",
-    coordinates: "7.30790 4.32922",
+    coordinates: "7.30160 4.32282",
     description:
       "Bidens pilosa is an annual species of herbaceous flowering plant in the daisy family Asteraceae. Its many common names include hitch hikers, black-jack, beggarticks, farmer’s friends and Spanish needle, but most commonly referred to as cobblers pegs. It is native to the Americas but is widely distributed as an introduced species in other regions worldwide including Eurasia, Africa, Australia, South America and the Pacific Islands.",
     url: "https://en.wikipedia.org/wiki/Bidens_pilosa",
@@ -163,7 +163,7 @@ export const data = [
     parts_used: "Leaf",
     medicinal_uses:
       "1.Leaf maceration is used for diarrhea.2. Leaf maceration is used for malaria (",
-    coordinates: "7.31421 4.31835",
+    coordinates: "7.31221 4.31585",
     description:
       "Chromolaena odorata is a tropical and subtropical species of flowering shrub in the family Asteraceae. It is native to the Americas, from Florida and Texas in the United States south through Mexico and the Caribbean[2][3] to South America.[4] It has been introduced to tropical Asia, West Africa, and parts of Australia.",
     url: "https://en.wikipedia.org/wiki/Chromolaena_odorata",
@@ -176,7 +176,7 @@ export const data = [
     local_name: "Ako yunrun",
     parts_used: "Leaf",
     medicinal_uses: "Leaf maceration is used for diarrhea",
-    coordinates: "7.31392 4.35375",
+    coordinates: "7.31112 4.30515",
     description:
       "Melanthera scandens is a scrambling or climbing, much-branched, perennial herb growing up to 3 - 4 metres tall. The plant is harvested from the wild for local use as an occasional food and more commonly for medicinal use. It is occasionally sold in local markets",
     url: "https://tropical.theferns.info/viewtropical.php?id=Melanthera+scandens",
@@ -219,7 +219,7 @@ export const data = [
     parts_used: "Leaf",
     medicinal_uses:
       "1. Decoction of stem bark is used for hypertension.2. Decoction of leaves and fruits of Citrus aurantifolia is used to treat yellow fever",
-    coordinates: "7.31249 4.31562",
+    coordinates: "7.31249 4.31352",
     description:
       "Newbouldia is a genus of plants in the family Bignoniaceae native to Africa. It is a monotypic genus consisting of the species Newbouldia laevis (common name: boundary tree).The tree has a wide distribution across West and Central Africa. It is often planted as a boundary marker.It also has various medicinal uses.",
     url: "https://en.wikipedia.org/wiki/Newbouldia",
@@ -246,7 +246,7 @@ export const data = [
     local_name: "Ogbe-ori-akuko",
     parts_used: "Leaf",
     medicinal_uses: "Decoction of the leaf is taken to treat skin diseases",
-    coordinates: "7.31252 4.31379",
+    coordinates: "7.31252 4.31370",
     description:
       "Heliotropium indicum, commonly known as Indian heliotrope, Indian turnsole is an annual, hirsute plant that is a common weed in waste places and settled areas. It is native to Asia. It is widely used in native medicine in Tamil Nadu, India.It grows wildly on roadsides and has a curved arrangement of small flowers and velvety broad green leaves",
     url: "https://en.wikipedia.org/wiki/Heliotropium_indicum",
@@ -261,7 +261,7 @@ export const data = [
     parts_used: "Fruit",
     medicinal_uses:
       "1. Decoction of fruit is taken for gonorrhea.2.Decoction of unripe fruit is used to ease difficult labor",
-    coordinates: "7.31420 4.31836",
+    coordinates: "7.31240 4.31836",
 
     description:
       "The pineapple(Ananas comosus) is a tropical plant with an edible fruit; it is the most economically significant plant in the family Bromeliaceae.[4] The pineapple is indigenous to South America, where it has been cultivated for many centuries. The introduction of the pineapple to Europe in the 17th century made it a significant cultural icon of luxury. Since the 1820s, pineapple has been commercially grown in greenhouses and many tropical plantations.",
@@ -276,7 +276,7 @@ export const data = [
     parts_used: "Leaf, fruit, root",
     medicinal_uses:
       "1. Cold water infusion of the fruits is used for malaria.2. Decoction of unripe fruit is used to ease difficult labor.3. Decoction of the root and root of Parkia biglobosa is used to treat malaria.4. Leaf is macerated with 7UP drink to treat typhoid.",
-    coordinates: "7.31248 4.31593",
+    coordinates: "7.31098 4.32083",
     description:
       "The papaya is a small, sparsely branched tree, usually with a single stem growing from 5 to 10 m (16 to 33 ft) tall, with spirally arranged leaves confined to the top of the trunk. The lower trunk is conspicuously scarred where leaves and fruit were borne. The leaves are large, 50–70 cm (20–28 in) in diameter, deeply palmately lobed, with seven lobes. All parts of the plant contain latex in articulated laticifers",
     url: "https://en.wikipedia.org/wiki/Papaya",
@@ -290,7 +290,7 @@ export const data = [
     parts_used: "Fruit, root, stem bark",
     medicinal_uses:
       "1.Fruits are chewed for cough.2. Decoction of the root and stem bark is used for cough.",
-    coordinates: "7.31249 4.31562",
+    coordinates: "7.31309 4.31562",
     description:
       "Garcinia kola (bitter kola (a name sometimes also used for G. afzelii) is a species of flowering plant belonging to the Mangosteen genus Garcinia of the family Clusiaceae (a.k.a. Guttiferae). It is found in Benin, Cameroon, The Gambia, Democratic Republic of the Congo, Ivory Coast, Mali , Gabon, Ghana, Liberia, Nigeria, Senegal and Sierra Leone. Its natural habitat is subtropical or tropical moist lowland forests.",
     url: "https://en.wikipedia.org/wiki/Garcinia_kola",
@@ -304,7 +304,7 @@ export const data = [
     parts_used: "Leaf, latex",
     medicinal_uses:
       "1. The latex is applied topically for boil.2. Leaf is macerated in water and drunk to treat measles.3. The latex is applied to aching tooth",
-    coordinates: "7.31248 4.31693",
+    coordinates: "7.31328 4.31693",
     description:
       "Calotropis procera is a species of flowering plant in the family Apocynaceae that is native to North Africa, tropical Africa, Western Asia, South Asia, and Indochina. The green fruits contain a toxic milky sap that is extremely bitter and turns into a gluey coating which is resistant to soap.",
     url: "https://en.wikipedia.org/wiki/Calotropis_procera",
@@ -318,7 +318,7 @@ export const data = [
     parts_used: "Stem bark",
     medicinal_uses:
       "1. Decoction of the bark is drunk for malaria.2. Bark is infused in palm wine and drunk to treat malaria.3. The stem bark is infused in local gin and rubbed on the body to treat measles",
-    coordinates: "7.31142 4.31291",
+    coordinates: "7.31242 4.31291",
     description:
       "Alstonia boonei is a very large, deciduous, tropical-forest tree belonging to the family Apocynaceae. It is native to tropical West Africa, with a range extending into Ethiopia and Tanzania. Its common name in the English timber trade is cheese wood, pattern wood or stool wood[2] (see Ashanti Empire golden stool) while its common name in the French timber trade is emien(derived from the vernacular of the Ivory Coast).",
     url: "https://en.wikipedia.org/wiki/Alstonia_boonei",
@@ -332,7 +332,7 @@ export const data = [
     parts_used: "Leaf",
     medicinal_uses:
       "1. Leaf juice is applied to fresh wound.2. Leaves are macerated in water and drunk to treat malaria.",
-    coordinates: "7.31248 4.31593",
+    coordinates: "7.32048 4.31593",
     description:
       "Ocimum gratissimum, also known as clove basil, African basil and in Hawaii as wild basil,is a species of Ocimum. It is native to Africa, Madagascar, southern Asia, and the Bismarck Archipelago, and naturalized in Polynesia, Hawaii, Mexico, Panama, West Indies, Brazil, and Bolivia.",
     url: "https://en.wikipedia.org/wiki/Ocimum_gratissimum",
@@ -374,7 +374,7 @@ export const data = [
     parts_used: "Leaf, stem bark",
     medicinal_uses:
       "Decoction of leaf and stem bark in fermented maize water is used for malaria.",
-    coordinates: "7.31420 4.31836",
+    coordinates: "7.31520 4.29836",
     description: "description_goes_here",
     url: "https://en.wikipedia.org/wiki/Mangifera_indica",
   },
@@ -387,7 +387,7 @@ export const data = [
     parts_used: "Seed",
     medicinal_uses:
       "Decoction of the seed is used to treat high blood pressure.",
-    coordinates: "7.31292 4.31375",
+    coordinates: "7.31540 4.31275",
     description:
       "The cashew tree (Anacardium occidentale) is a tropical evergreen tree that produces the cashew seed and the cashew apple accessory fruit. The tree can grow as high as 14 m (46 ft), but the dwarf cultivars, growing up to 6 m (20 ft), prove more profitable, with earlier maturity and greater yields. The cashew seed is commonly considered a snack nut (cashew nut) eaten on its own, used in recipes, or processed into cashew cheese or cashew butter.",
     url: "https://en.wikipedia.org/wiki/Cashew",
@@ -401,7 +401,7 @@ export const data = [
     parts_used: "Leaf, stem bark",
     medicinal_uses:
       "1.Decoction of leaf and stem bark is used for rheumatism. 2. Decoction of stem bark is used to treat yellow fever. 3. Decoction of the bark is used to treat malaria. 4. Infusion of the bark in water is taken to treat skin diseases",
-    coordinates: "7.31394 4.31366",
+    coordinates: "7.30394 4.31206",
     description:
       "Khaya grandifoliola, also called African mahogany, Benin mahogany, large-leaved mahogany, or Senegal mahogany, is a species of plant in the family Meliaceae. It is found in Benin, the Democratic Republic of the Congo, Ivory Coast, Ghana, Guinea, Nigeria, Sudan, Togo, and Uganda. It is threatened by habitat loss.",
     url: "https://en.wikipedia.org/wiki/Khaya_grandifoliola",
@@ -415,7 +415,7 @@ export const data = [
     parts_used: "Leaf, inflorescence",
     medicinal_uses:
       "1. Young leaves are macerated in water, mixed with salt, and used for skin diseases. 2. Leaves are powdered, mixed with sulphur, alum, and any cream, and used for skin diseases.3. Leaves are macerated in water, and potash is added and drunk for pile.4. Inflorescence is dried and powdered with potash to treat female infertility.",
-    coordinates: "7.31249 4.31562",
+    coordinates: "7.31319 4.31172",
     description:
       "Senna alata is an important medicinal tree, as well as an ornamental flowering plant in the subfamily Caesalpinioideae. It also known as emperor's candlesticks,candle bush,candelabra bush, Christmas candles,empress candle plant, ringworm shrub or candletree. A remarkable species of Senna, it was sometimes separated in its own genus, Herpetica.",
     url: "https://en.wikipedia.org/wiki/Senna_alata",
@@ -429,7 +429,7 @@ export const data = [
     parts_used: "Whole plant",
     medicinal_uses:
       "1. Decoction of whole plant is used for fever. 2. The whole plant is cut into pieces and infused in the fruit juice of Citrus aurantifolia and used as aphrodisiac and to treat backache",
-    coordinates: "7.31148 4.31595",
+    coordinates: "7.32148 4.30595",
     description:
       "Phyllanthus amarus is a leafy herbal plant found in tropical regions in the Americas, Africa, India, China and South East Asia. Commons names for this plant include gale of the wind, carry me seed, seed on the leaf, pick-a-back,Bhuiavla (Hindi), Bhuiamla (Bengali),stonebreaker, dukung anak (Malay).",
     url: "https://en.wikipedia.org/wiki/Phyllanthus_amarus",
@@ -443,7 +443,7 @@ export const data = [
     parts_used: "Leaf",
     medicinal_uses:
       "1. Leaf is macerated in water to treat pile and also used as aphrodisiac. 2. Macerate with water and salt for syphilis.3. Macerate in water and salt and drink to treat stomach ache.",
-    coordinates: "7.31238 4.31593",
+    coordinates: "7.29358 4.31483",
     description:
       "Momordica charantia (colloquially: bitter melon; bitter apple; bitter gourd; bitter squash; balsam-pear; with many more names listed below)is a tropical and subtropical vine of the family Cucurbitaceae, widely grown in Asia, Africa, and the Caribbean for its edible fruit. Its many varieties differ substantially in the shape and bitterness of the fruit.Bitter melon originated in Africa",
     url: "https://en.wikipedia.org/wiki/Momordica_charantia",
@@ -471,7 +471,7 @@ export const data = [
     parts_used: "Fruit",
     medicinal_uses:
       "1. Decoction of fruit is taken for gonorrhea. 2. Fruits are infused in water to treat malaria. 3. Juice from the fruit is used to treat indigestion, stomach ache, and vomiting.",
-    coordinates: "7.31420 4.31836",
+    coordinates: "7.31210 4.31376",
     description:
       "The Key lime (Citrus × aurantiifolia) is a citrus hybrid (C. hystrix × C. medica) native to tropical Southeast Asia. It has a spherical fruit, 25–50 mm (1–2 in) in diameter. The Key lime is usually picked while it is still green, but it becomes yellow when ripe.The Key lime is smaller, seedier, has higher acidity, stronger aroma, and thinner rind than the Persian lime (Citrus × latifolia). It is valued for its characteristic flavor.",
     url: "https://en.wikipedia.org/wiki/Key_lime",
@@ -485,7 +485,7 @@ export const data = [
     parts_used: "Seeds",
     medicinal_uses:
       "Powdered seeds are mixed with palm oil to treat stomach ache",
-    coordinates: "7.30790 4.32922",
+    coordinates: "7.30290 4.32322",
     description:
       "Aframomum melegueta is an herbaceous perennial plant native to swampy habitats along the West African coast. Its trumpet-shaped, purple flowers develop into pods 5–7 cm (2–3 in) long, containing numerous small, reddish-brown seeds",
     url: "https://en.wikipedia.org/wiki/Aframomum_melegueta",
@@ -499,7 +499,7 @@ export const data = [
     parts_used: "Root, stem bark",
     medicinal_uses:
       "1. Decoction of the root, fruits of Citrus aurantifolia, and potash is used to treat syphilis. 2. Dry stem bark is powdered with local chalk, mixed with local gin, and used as first aid of any ailment.",
-    coordinates: "7.31258 4.31693",
+    coordinates: "7.31258 4.30693",
     description:
       "M. oleifera is a fast-growing, deciduous tree[8] that can reach a height of 10–12 m (32–40 ft) and trunk diameter of 45 cm (1.5 ft).[9] The bark has a whitish-grey color and is surrounded by thick cork. Young shoots have purplish or greenish-white, hairy bark. The tree has an open crown of drooping, fragile branches, and the leaves build up a feathery foliage of tripinnate leaves.",
     url: "https://en.wikipedia.org/wiki/Moringa_oleifera",
@@ -513,7 +513,7 @@ export const data = [
     parts_used: "Leaf",
     medicinal_uses:
       "1. Macerate in salt water and drink for dysentery. 2. Leaf is macerated and mixed with local chalk and taken orally to prevent miscarriage.",
-    coordinates: "7.31293 4.31314",
+    coordinates: "7.31293 4.30314",
     description:
       "atropha gossypiifolia, commonly known as bellyache bush, black physicnut or cotton-leaf physicnut, is a species of flowering plant in the spurge family, Euphorbiaceae.[1] The species is native to Mexico, Philippines, South America, Gujarat State (India), and the Caribbean islands. It is a declared noxious weed in Puerto Rico and is naturalised in northern Australia.",
     url: "https://en.wikipedia.org/wiki/Jatropha_gossypiifolia",
@@ -526,7 +526,7 @@ export const data = [
     local_name: "Omisinmisin, Oju-ologbo",
     parts_used: "Leaf",
     medicinal_uses: "The leaves are chewed to treat cough",
-    coordinates: "7.31249 4.31562",
+    coordinates: "7.31049 4.31262",
     description:
       "Abrus precatorius, commonly known as jequirity bean or rosary pea, is a herbaceous flowering plant in the bean family Fabaceae. It is a slender, perennial climber with long, pinnate-leafleted leaves that twines around trees, shrubs, and hedges.The plant is best known for its seeds, which are used as beads and in percussion instruments, and which are toxic because of the presence of abrin. Ingestion of a single seed, well chewed, can be fatal to both adults and children.",
     url: "https://en.wikipedia.org/wiki/Abrus_precatorius",
@@ -554,7 +554,7 @@ export const data = [
     parts_used: "Leaf",
     medicinal_uses:
       "1. Leaves are cooked without salt to treat measles. 2. Leaves are macerated in cold water and drunk during difficult labor.",
-    coordinates: "7.31248 4.31593",
+    coordinates: "7.31248 4.31493",
     description:
       "Corchorus olitorius is an erect herbaceous plant, fairly branched and grows about 1.5 m high. However, if grown for fibre production, it can reach heights up to 4 m. The taproot leads to a sturdy and hairless stem, which is green with a faint red-brownish hue and sometimes turns a little woody on ground level. The serrate acute leaves alternate, are 6 to 10 cm long a and 2 to 4 cm wide. The plant carries the flowers solitary or in two-flowered cymes opposite of the leaf. ",
     url: "https://en.wikipedia.org/wiki/Corchorus_olitorius",
@@ -568,7 +568,7 @@ export const data = [
     parts_used: "Leaf",
     medicinal_uses:
       "1. Macerate in salt water and drink for dysentery. 2. Leaf is macerated and mixed with local chalk and taken orally to prevent miscarriage.",
-    coordinates: "7.31420 4.31836",
+    coordinates: "7.31420 4.28336",
     description:
       "Jatropha curcas is a species of flowering plant in the spurge family, Euphorbiaceae, that is native to the American tropics, most likely Mexico and Central America.It is originally native to the tropical areas of the Americas from Mexico to Argentina, and has been spread throughout the world in tropical and subtropical regions around the world, becoming naturalized or invasive in many areas.",
     url: "https://en.wikipedia.org/wiki/Jatropha_curcas",
@@ -581,7 +581,7 @@ export const data = [
     local_name: "Ooro",
     parts_used: "Leaf",
     medicinal_uses: "Macerate with leaf of Hibiscus spp. to treat gonorrhea",
-    coordinates: "7.30792 4.32923",
+    coordinates: "7.30792 4.31923",
     description:
       "Irvingia gabonensis grows straight, up to a height of 40 m (130 ft) and 1 m (3 ft 3 in) in diameter.[2] It has buttresses to a height of 3m (10 ft). The outer bark is smooth to scaly with grey to yellow-grey color. The crown is evergreen, spherical and dense. Leaves are elliptic, one margin is often a little rounder than the other, acuminate, dark green and glossy on the upper surface",
     url: "https://en.wikipedia.org/wiki/Irvingia_gabonensis",
