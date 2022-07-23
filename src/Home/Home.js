@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 // import logo from "../images/leafimage.jpg";
 import logo from "../Medi_plants_images/background.png";
+import { data } from "../Collection/data";
 
 const Home = () => {
   return (
@@ -33,10 +34,7 @@ const Home = () => {
         Ageratum conyzoides and Senna alata) in OAU, Ile-Ife Osun, State,
         Nigeria. The gap between the rate of exploration and conservation is
         analyzed, characterization of habitat and landscape level biodiversity,
-        species distribution pattern and modelling. Analysis was carried out in
-        order to identifying sites for systematic inventories whereas gap
-        analysis help to know the status of botanical exploration and the
-        representativeness of protected area network. The relationship between
+        species distribution pattern and modelling. The relationship between
         the land use and medicinal plant species would be implemented to explore
         the plants modeling both spatial and non-spatial data under the GIS
         platform.
@@ -82,6 +80,9 @@ const Home = () => {
         proper identification of these medicinal plant that are peculiar to
         these regions and ensure their conservation and increase biodiversity.
       </p>
+          <div className="plant_list_container">{data.map((item, index)=>{
+            return <h3 className="plant_name">Plant {index+1}: <span>{item.common_name}</span></h3>
+          })}</div>
     </div>
   );
 };

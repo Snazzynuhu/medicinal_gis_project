@@ -22,3 +22,27 @@
 p {
   font-size: 1.1rem;
 }
+.plant_list_container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin:0 auto;
+  gap: 0.5rem;
+  width: 100vw;
+}
+.plant_list_container>.plant_name{
+  width: 25rem;
+  margin: 1rem;
+  text-align: left;
+}
+.plant_list_container>.plant_name>span{
+  width: 10px;
+  background-color: grey;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: 3px dashed grey;
+}
+.plant_list_container>.plant_name>span:hover{
+  background-color: rgba(93, 92, 92, 0.6);
+  cursor: pointer;
+}
