@@ -96,7 +96,10 @@ const Home = () => {
           );
         })}
       </div>
-      {modal&&<div className="modal_container">I am in the modal</div>}
+      {modal&&<section className="modal_container">
+      <button className="close_btn" onClick={()=>setModal(!modal)}>X</button>
+        <article>content about plant goes in here </article>
+      </section>}
     </div>
   );
 };
