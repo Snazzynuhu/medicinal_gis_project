@@ -1,14 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Home.css";
 // import logo from "../images/leafimage.jpg";
 import logo from "../Medi_plants_images/background.png";
-import { data } from "../Collection/data";
+
 
 const Home = () => {
-  const [modal, setModal] = useState(false);
-  const openModal=()=>{
-    setModal(!modal)
-  }
+
+
   return (
     <div className="home">
       <h1 id="home">&nbsp;</h1>

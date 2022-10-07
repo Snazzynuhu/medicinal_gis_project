@@ -1,6 +1,5 @@
 import React, { useState, useRef } from "react";
 import "./Collection.css";
-import PlantImage from "../images/leafimage.jpg";
 import { data } from "./data";
 
 const Collection = () => {
@@ -12,9 +11,8 @@ const Collection = () => {
     document.execCommand("copy");
     e.target.focus();
     setCopySuccess("Copied!");
-    if (copySuccess != "") {
-      // copySuccess.style.color = "red";
-      console.log("snazzyyooo");
+    if (copySuccess !== " ") {
+      copySuccess.style.color = "red";
     }
     setTimeout(setCopySuccess, 1500);
   }
@@ -27,7 +25,7 @@ const Collection = () => {
         {data.map((item) => {
           return (
             <article className="single-plant">
-              <img src={item.image} alt="plant image" className="plant-image" />
+              <img src={item.image} alt="randommage" className="plant-image" />
               <h2 className="botanical_name">
                 botanical name: <span>{item.botanical_name}</span>
               </h2>
@@ -63,6 +61,7 @@ const Collection = () => {
                   className="link_googlearth"
                   href="https://earth.google.com/web/@0,0,0a,22251752.77375655d,35y,0h,0t,0r"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   go to google earth engine
                 </a>
