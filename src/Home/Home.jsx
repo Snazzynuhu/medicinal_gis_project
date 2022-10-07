@@ -13,7 +13,7 @@ const Home = () => {
     <div className="home">
       <h1 id="home">&nbsp;</h1>
       <div className="image-container">
-        <img src={logo} alt="background image" />
+        <img src={logo} alt="header-logo" />
       </div>
       <h2 class="heading" id="abstract">
         abstract
@@ -87,19 +87,6 @@ const Home = () => {
         proper identification of these medicinal plant that are peculiar to
         these regions and ensure their conservation and increase biodiversity.
       </p>
-      <div className="plant_list_container">
-        {data.map((item, index) => {
-          return (
-            <h3 className="plant_name" onClick={openModal}>
-              Plant {index + 1}: <span>{item.common_name}</span>
-            </h3>
-          );
-        })}
-      </div>
-      {modal&&<section className="modal_container">
-      <button className="close_btn" onClick={()=>setModal(!modal)}>X</button>
-        <article>content about plant goes in here </article>
-      </section>}
     </div>
   );
 };
