@@ -1,21 +1,19 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Home.css";
-// import logo from "../images/leafimage.jpg";
 import logo from "../Medi_plants_images/background.png";
-import { data } from "../Collection/data";
+import Navbar from "../Navbar/Navbar";
 
 const Home = () => {
-  const [modal, setModal] = useState(false);
-  const openModal=()=>{
-    setModal(!modal)
-  }
+  const [showMenu] = React.useState(true);
   return (
+    <>
+    <Navbar showMenu={showMenu} />
     <div className="home">
       <h1 id="home">&nbsp;</h1>
       <div className="image-container">
-        <img src={logo} alt="background image" />
+        <img src={logo} alt=" " />
       </div>
-      <h2 class="heading" id="abstract">
+      <h2 className="heading" id="abstract">
         abstract
       </h2>
       <p>
@@ -45,10 +43,10 @@ const Home = () => {
         plants modeling both spatial and non-spatial data under the GIS
         platform.
       </p>
-      <h2 id="about" class="heading">
+      <h2 id="intro" className="heading">
         introduction
       </h2>
-      <p>
+      <p className="paragraph2">
         As defined by W.H.O. Medicinal plants are plants in which one or more of
         its parts contains phytochemicals substances such as alkaloid,
         flavonoid, saponin, tannin and other phenolic compounds that can be used
@@ -87,7 +85,7 @@ const Home = () => {
         proper identification of these medicinal plant that are peculiar to
         these regions and ensure their conservation and increase biodiversity.
       </p>
-      <div className="plant_list_container">
+      {/* <div className="plant_list_container">
         {data.map((item, index) => {
           return (
             <h3 className="plant_name" onClick={openModal}>
@@ -99,8 +97,10 @@ const Home = () => {
       {modal&&<section className="modal_container">
       <button className="close_btn" onClick={()=>setModal(!modal)}>X</button>
         <article>content about plant goes in here </article>
-      </section>}
+      </section>} */}
     </div>
+    </>
+  
   );
 };
 

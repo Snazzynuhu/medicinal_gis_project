@@ -66,6 +66,7 @@ h3 {
   cursor: pointer;
 }
 .medi_heading {
+  margin-top: 7rem;
   text-transform: capitalize;
   font-size: 1.75rem;
   color: green;

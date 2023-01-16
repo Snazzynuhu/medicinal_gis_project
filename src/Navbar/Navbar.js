@@ -1,8 +1,19 @@
 import React from "react";
 import "./Navbar.css";
 import logo from "../images/logo.png";
+import { Link } from 'react-router-dom';  
 
-const Navbar = () => {
+const Navbar = ({showMenu}) => {
+  const [searchText, setSearchText] = React.useState("");
+
+  const handleChange=(e)=>{
+    setSearchText(e.target.value);
+    console.log('text', e.target.value);
+  };
+  const handleSubmit=()=>{
+    console.log('text', searchText);
+  };
+
   return (
     <header id="header">
       <div className="logo-container">
@@ -10,18 +21,29 @@ const Navbar = () => {
       </div>
       <nav className="navbar">
         <button>
-          <a href="#home">Home</a>
+        <Link to="/" >  Home  </Link>
         </button>
         <button>
+          {showMenu && 
           <a href="#abstract">abstract</a>
+          }
         </button>
         <button>
-          <a href="#about">introduction</a>
+          {showMenu &&
+          <a href="#intro">introduction</a>
+          }
         </button>
-        <button>
-          <a href="#database">database</a>
+        <button style={{backgroundColor: showMenu ? " ": 'green'}}>
+        <Link to="/collection" >  plants collection  </Link> 
         </button>
-        {/* <button><a href="#coordinates">coordinates</a></button> */}
+      <form onSubmit={handleSubmit}>
+        <div className="searchBox">
+          <input type="text" className="SearchInput" name="searchText" value={searchText}  onChange={handleChange} />
+          <button className="searchBtn" type="submit">
+            Search
+          </button>
+        </div>
+      </form>
       </nav>
     </header>
   );

@@ -48,3 +48,14 @@ header > .navbar > button > a {
 header > .navbar > button > a:hover {
   color: #fff;
 }
+
+.searchBox >input, .searchBox >button{
+  padding: 0.2rem;
+  border: none;
+}
+.searchBox >button{
+  background-color: green;
+  color: #fff;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}

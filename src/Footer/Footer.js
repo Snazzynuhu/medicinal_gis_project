@@ -8,7 +8,7 @@ const Footer = () => {
       <p>
         &copy; copyright {now}. all rights reserved developed by{" "}
         <span>
-          <a href="https://harunanuhu-portfolio.netlify.app/" target="_blank">
+          <a href="https://harunanuhu-portfolio.netlify.app/" target="_blank" rel="noreferrer">
             haruna nuhu
           </a>
         </span>{" "}
@@ -16,7 +16,7 @@ const Footer = () => {
         <span>
           <a
             href="https://geography.oauife.edu.ng/instructor/dr-d-o-baloye/"
-            target="_blank"
+            target="_blank" rel="noreferrer"
           >
             Dr. David O. BALOYE
           </a>

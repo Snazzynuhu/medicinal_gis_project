@@ -13,12 +13,13 @@ footer {
 }
 footer > p {
   font-size: 1rem;
+  color: #000;
 }
 footer > p > span:nth-child(2) {
   color: red;
 }
 footer > p > span > a {
-  color: goldenrod;
+  color: red;
   text-decoration: none;
   cursor: pointer;
 }
