@@ -1,29 +1,17 @@
 import React from "react";
 import "./Home.css";
 import logo from "../Medi_plants_images/background.png";
-<<<<<<< HEAD:src/Home/Home.js
 import Navbar from "../Navbar/Navbar";
 
 const Home = () => {
   const [showMenu] = React.useState(true);
-=======
-
-
-const Home = () => {
-
-
->>>>>>> c93f87527b834ecd24ddff44cf2d9001cdab9409:src/Home/Home.jsx
   return (
     <>
     <Navbar showMenu={showMenu} />
     <div className="home">
       <h1 id="home">&nbsp;</h1>
       <div className="image-container">
-<<<<<<< HEAD:src/Home/Home.js
         <img src={logo} alt=" " />
-=======
-        <img src={logo} alt="header-logo" />
->>>>>>> c93f87527b834ecd24ddff44cf2d9001cdab9409:src/Home/Home.jsx
       </div>
       <h2 className="heading" id="abstract">
         abstract
@@ -97,7 +85,6 @@ const Home = () => {
         proper identification of these medicinal plant that are peculiar to
         these regions and ensure their conservation and increase biodiversity.
       </p>
-<<<<<<< HEAD:src/Home/Home.js
       {/* <div className="plant_list_container">
         {data.map((item, index) => {
           return (
@@ -111,8 +98,6 @@ const Home = () => {
       <button className="close_btn" onClick={()=>setModal(!modal)}>X</button>
         <article>content about plant goes in here </article>
       </section>} */}
-=======
->>>>>>> c93f87527b834ecd24ddff44cf2d9001cdab9409:src/Home/Home.jsx
     </div>
     </>
   
