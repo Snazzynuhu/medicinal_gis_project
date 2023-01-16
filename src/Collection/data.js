@@ -1,4 +1,3 @@
-import afromomum1 from "../images/leafimage.jpg";
 import abrus from "../Medi_plants_images/Abrus_precatorius_flowers_at_Neeliyarkottam_(1).jpg";
 import afromomum from "../Medi_plants_images/Aframomum+melegueta.jpg";
 import agerantum from "../Medi_plants_images/Ageratum_conyzoides_1.jpg";
@@ -9,7 +8,6 @@ import Ananas from "../Medi_plants_images/Ananas_comosus_Victoria_P1190421.jpg";
 import Anchomanes from "../Medi_plants_images/Anchomanes_difformis-IMG_2160.jpg";
 import Bidens from "../Medi_plants_images/Bidens_pilosa_01.jpg";
 import Bixa from "../Medi_plants_images/Bixa_orellana.jpg";
-import Boldo from "../Medi_plants_images/Boldo_baiano.jpg";
 import Caladium from "../Medi_plants_images/Caladium-bicolor-Holmes-Palacios--CC-BY.jpg";
 import Calotropis from "../Medi_plants_images/Calotropis_procera.jpg";
 import Carica from "../Medi_plants_images/Carica_papaya_001.jfif";

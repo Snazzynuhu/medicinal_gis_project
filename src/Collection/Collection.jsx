@@ -1,6 +1,9 @@
 import React, { useState, useRef } from "react";
 import "./Collection.css";
+<<<<<<< HEAD:src/Collection/Collection.js
 // import PlantImage from "../images/leafimage.jpg";
+=======
+>>>>>>> c93f87527b834ecd24ddff44cf2d9001cdab9409:src/Collection/Collection.jsx
 import { data } from "./data";
 import Navbar from "../Navbar/Navbar";
 
@@ -14,9 +17,14 @@ const Collection = () => {
     document.execCommand("copy");
     e.target.focus();
     setCopySuccess("Copied!");
+<<<<<<< HEAD:src/Collection/Collection.js
     if (copySuccess !== "") {
       // copySuccess.style.color = "red";
       console.log("snazzyyooo");
+=======
+    if (copySuccess !== " ") {
+      copySuccess.style.color = "red";
+>>>>>>> c93f87527b834ecd24ddff44cf2d9001cdab9409:src/Collection/Collection.jsx
     }
     setTimeout(setCopySuccess, 1500);
   }
@@ -29,8 +37,13 @@ const Collection = () => {
       <section className="plants-container">
         {data.map((item) => {
           return (
+<<<<<<< HEAD:src/Collection/Collection.js
             <article className="single-plant" key={item.common_name}>
               <img src={item.image} alt="" className="plant-image" />
+=======
+            <article className="single-plant">
+              <img src={item.image} alt="randommage" className="plant-image" />
+>>>>>>> c93f87527b834ecd24ddff44cf2d9001cdab9409:src/Collection/Collection.jsx
               <h2 className="botanical_name">
                 botanical name: <span>{item.botanical_name}</span>
               </h2>
@@ -65,7 +78,12 @@ const Collection = () => {
                 <a
                   className="link_googlearth"
                   href="https://earth.google.com/web/@0,0,0a,22251752.77375655d,35y,0h,0t,0r"
+<<<<<<< HEAD:src/Collection/Collection.js
                   target="_blank" rel="noreferrer"
+=======
+                  target="_blank"
+                  rel="noreferrer"
+>>>>>>> c93f87527b834ecd24ddff44cf2d9001cdab9409:src/Collection/Collection.jsx
                 >
                   go to google earth engine
                 </a>
