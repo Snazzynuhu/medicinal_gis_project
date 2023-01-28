@@ -1,10 +1,15 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./Home.css";
 import logo from "../Medi_plants_images/background.png";
 import Navbar from "../Navbar/Navbar";
+import { data } from "../Collection/data";
 
 const Home = () => {
   const [showMenu] = React.useState(true);
+
+  useEffect(()=>{
+    console.log('myData', data);
+  })
   return (
     <>
     <Navbar showMenu={showMenu} />

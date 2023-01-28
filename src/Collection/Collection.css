@@ -1,6 +1,15 @@
 body {
   text-align: center;
 }
+form{
+  position: absolute;
+  top: 7rem;
+  left: 3rem;
+}
+.searchBox .searchInput{
+  border: 1px solid grey;
+  cursor: pointer;
+}
 .plants-container {
   display: flex;
   justify-content: space-evenly;
@@ -66,7 +75,7 @@ h3 {
   cursor: pointer;
 }
 .medi_heading {
-  margin-top: 7rem;
+  margin-top: 10rem;
   text-transform: capitalize;
   font-size: 1.75rem;
   color: green;

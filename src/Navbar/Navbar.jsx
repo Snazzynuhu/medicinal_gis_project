@@ -1,18 +1,15 @@
 import React from "react";
 import "./Navbar.css";
+import { data } from "../Collection/data";
 import logo from "../images/logo.png";
 import { Link } from 'react-router-dom';  
+import { useEffect } from "react";
 
 const Navbar = ({showMenu}) => {
-  const [searchText, setSearchText] = React.useState("");
 
-  const handleChange=(e)=>{
-    setSearchText(e.target.value);
-    console.log('text', e.target.value);
-  };
-  const handleSubmit=()=>{
-    console.log('text', searchText);
-  };
+  useEffect(()=>{
+    console.log('myData', data);
+  })
 
   return (
     <header id="header">
@@ -36,14 +33,7 @@ const Navbar = ({showMenu}) => {
         <button style={{backgroundColor: showMenu ? " ": 'green'}}>
         <Link to="/collection" >  plants collection  </Link> 
         </button>
-      <form onSubmit={handleSubmit}>
-        <div className="searchBox">
-          <input type="text" className="SearchInput" name="searchText" value={searchText}  onChange={handleChange} />
-          <button className="searchBtn" type="submit">
-            Search
-          </button>
-        </div>
-      </form>
+
       </nav>
     </header>
   );

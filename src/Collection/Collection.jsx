@@ -1,6 +1,5 @@
 import React, { useState, useRef } from "react";
 import "./Collection.css";
-// import PlantImage from "../images/leafimage.jpg";
 import { data } from "./data";
 import Navbar from "../Navbar/Navbar";
 
@@ -8,6 +7,35 @@ const Collection = () => {
   const [copySuccess, setCopySuccess] = useState("");
   const textAreaRef = useRef(null);
   const [showMenu] = React.useState(false);
+  const [plantCollection, setPlantCollection] = useState(data)
+
+  const [searchText, setSearchText] = React.useState("");
+
+  const handleChange=(e)=>{
+    const text = e.target.value
+    setSearchText(e.target.value);
+    console.log('text', e.target.value);
+    const filteredList = plantCollection.filter( data  =>
+      data.botanical_name.toLowerCase().contains(text.toLowerCase())
+    );
+    console.log('t', text);
+    console.log('t2', filteredList);
+    setPlantCollection(filteredList);
+  };
+  const handleSubmit=(e)=>{
+    e.preventDefault();
+    console.log('text', searchText);
+    console.log('1', data)
+    // const newData =  data.filter(datum=> datum.botanical_name.startsWith(searchText));
+    // setPlantCollection(newData)
+    // console.log('here', newData);
+    const filteredList = plantCollection.filter( data  =>
+    data.botanical_name.toLowerCase().startsWith(searchText.toLowerCase())
+  );
+  setPlantCollection(filteredList);
+  console.log("filteredList", filteredList);
+
+  };
 
   function copyToClipboard(e) {
     textAreaRef.current.select();
@@ -23,11 +51,20 @@ const Collection = () => {
   return (
     <>
     <Navbar showMenu={showMenu}/>
+
+    <form onSubmit={handleSubmit}>
+        <div className="searchBox">
+          <input type="text" className="searchInput" name="searchText" value={searchText}  onChange={handleChange} />
+          <button className="searchBtn" type="submit">
+            Search
+          </button>
+        </div>
+      </form>
       <h1 id="database" className="medi_heading">
         medicinal plants collection found in the study area
       </h1>
       <section className="plants-container">
-        {data.map((item) => {
+        {plantCollection.map((item) => {
           return (
             <article className="single-plant" key={item.common_name}>
               <img src={item.image} alt="" className="plant-image" />
